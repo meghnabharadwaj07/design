@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "donors",
+  "info": {
+    "name": "Donor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "donorName": {
+      "type": "string"
+    },
+    "donorAddress": {
+      "type": "string"
+    },
+    "donorEmail": {
+      "type": "email"
+    },
+    "donorPhone": {
+      "type": "string"
+    },
+    "donorItemList": {
+      "type": "json"
+    },
+    "profileUrl": {
+      "type": "string"
+    }
+  }
+}
