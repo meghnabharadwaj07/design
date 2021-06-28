@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/donations/:id",
-      "handler": "donation.findOne",
+      "handler": "donation.findById",
       "config": {
         "policies": []
       }

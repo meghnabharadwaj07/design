@@ -18,12 +18,13 @@
     },
     {
       "method": "GET",
-      "path": "/donors/:id",
-      "handler": "donor.findOne",
+      "path": "/donor/:id",
+      "handler": "donor.findById",
       "config": {
         "policies": []
       }
     },
+
     {
       "method": "POST",
       "path": "/donors",

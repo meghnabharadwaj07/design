@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/posts/:id",
-      "handler": "post.findOne",
+      "handler": "post.findById",
       "config": {
         "policies": []
       }
