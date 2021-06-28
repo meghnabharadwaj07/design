@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const { setupStrapi } = require('./helpers/strapi');
-jest.setTimeout(20000000);
+jest.setTimeout(2000000);
 /** this code is called once before any test is called */
 
 
