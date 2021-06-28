@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "donors",
+  "collectionName": "ngos",
   "info": {
-    "name": "Donor",
-    "description": ""
+    "name": "NGO"
   },
   "options": {
     "increments": true,
@@ -12,26 +11,29 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "donorName": {
+    "ngoName": {
       "type": "string"
     },
-    "donorAddress": {
+    "ngoAddress": {
       "type": "string"
     },
-    "donorEmail": {
-      "type": "email"
-    },
-    "donorPhone": {
+    "ngoEmail": {
       "type": "string"
     },
-    "donorItemList": {
-      "type": "json"
+    "ngoPhone": {
+      "type": "string"
     },
     "profileUrl": {
       "type": "string"
     },
-    "donations": {
-      "collection": "donation"
+    "description": {
+      "type": "string"
+    },
+    "postIdList": {
+      "type": "json"
+    },
+    "ngoItemList": {
+      "type": "json"
     }
   }
 }
